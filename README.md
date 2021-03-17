@@ -10,6 +10,15 @@ Overview
 - Plugin
   - `id("org.springframework.experimental.aot") version "0.9.0"`
 
+### Native Image Buildpack
+
+```kotlin
+tasks.withType<BootBuildImage> {
+	builder = "paketobuildpacks/builder:tiny"
+	environment = mapOf("BP_NATIVE_IMAGE" to "true")
+}
+```
+
 ## Demo
 
 ## Features
