@@ -7,6 +7,9 @@ Overview
 - org.springframework.experimental
   - `spring-native:0.9.0`
 
+- Plugin
+  - `id("org.springframework.experimental.aot") version "0.9.0"`
+
 ## Demo
 
 ## Features
