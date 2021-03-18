@@ -17,6 +17,6 @@ class HelloController {
         val dateFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSS")
         val currentTime = ZonedDateTime.now(ZoneId.of("Japan")).format(dateFormatter)
         logger.info(currentTime)
-        return "Current Timr: $currentTime"
+        return "Current Time: $currentTime"
     }
 }
